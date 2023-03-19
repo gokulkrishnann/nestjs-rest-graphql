@@ -1,0 +1,20 @@
+query AllUsers {
+  users {
+    ...UserFields
+  }
+}
+
+query SingleUser {
+  user(id: 2) {
+    ...UserFields
+  }
+}
+
+fragment UserFields on User {
+  id
+  name
+  email
+  mobile
+  city
+  country
+}

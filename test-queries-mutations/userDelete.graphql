@@ -1,0 +1,10 @@
+mutation {
+  deleteUser(data: { id: 1 }) {
+    id
+    name
+    email
+    mobile
+    city
+    country
+  }
+}

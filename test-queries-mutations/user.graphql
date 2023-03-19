@@ -1,0 +1,10 @@
+query {
+  user(id: 2) {
+    id
+    name
+    mobile
+    email
+    city
+    country
+  }
+}
